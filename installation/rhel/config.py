@@ -1,7 +1,7 @@
 from multiprocessing import cpu_count
 import os
 
-bind = "127.0.0.1:5000"
+bind = "0.0.0.0:5000"
 
 if os.environ.get("PATCHSERVER_PORT"):
    print "Change port for patchserver"
